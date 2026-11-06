@@ -1,0 +1,197 @@
+/* 1. Estilos generales de toda la página */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3eee6;
+    color: #243c35;
+    line-height: 1.6;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* 2. Menú de navegación */
+nav {
+    background-color: #243c35;
+    padding: 15px;
+    text-align: center;
+}
+
+/* 3. Enlaces del menú */
+nav a {
+    color: rgb(212, 118, 41);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* 4. Efecto al pasar el mouse */
+nav a:hover {
+    color: #e8b49a;
+}
+
+/* 5. Encabezados */
+header {
+    background-color: #dfd1ba;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* 6. Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* 7. Secciones */
+section {
+    background-color: rgb(173, 107, 8);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+/* 8. Pie de página */
+footer {
+    background-color: #243c35;
+    color: rgb(228, 136, 31);
+    text-align: center;
+    padding: 15px;
+}
+  padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Clase 3: botón principal */
+.boton-principal {
+    display: inline-block;
+    background-color: #c4775b;
+    color: rgb(230, 126, 7);
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton-principal:hover {
+    background-color: #a65e45;
+}
+
+/* Imágenes de las tarjetas de cursos */
+.imagen-curso {
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 10px;
+}
+
+/* Formulario de contacto */
+.formulario-contacto {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.campo-formulario {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px auto 18px;
+    border: 1px solid #d5cbbd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Campos de escritura */
+.campo-formulario {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border: 1px solid #f39819;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Efecto al seleccionar un campo */
+.campo-formulario:focus {
+    outline: 2px solid #c4775b;
+    border-color: #c4775b;
+
+    /* Menú principal */
+.menu-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 18px;
+    background-color: #243c35;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-principal a:hover {
+    color: #e8b49a;
+}
+/* Adaptación para celulares */
+@media (max-width: 576px) {
+
+    .menu-principal {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .menu-principal a {
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 35px 15px;
+    }
+
+    main {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .formulario-contacto {
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+}
+/* Imágenes adaptables */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
